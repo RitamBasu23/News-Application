@@ -1,14 +1,13 @@
-
-import React from 'react';
+import * as React from 'react';
 import { createDrawerNavigator } from '@react-navigation/drawer';
 import { NavigationContainer } from '@react-navigation/native';
-import NewsFeedScreen from '../screens/NewsFeedScreen';
-import NewsDetailScreen from '../screens/NewsDetailScreen';
-import AboutScreen from '../screens/AboutScreen';
-import LoginScreen from '../screens/LoginScreen';
-import DashboardScreen from '../screens/DashboardScreen';
-import ProfileScreen from '../screens/ProfileScreen';
-//import CustomDrawerContent from '../components/common/CustomDrawerContent';
+import NewsFeedScreen from '../Screens/NewsFeedScreen';
+import NewsDetailScreen from '../Screens/NewsDetailScreen';
+import AboutScreen from '../Screens/AboutScreen';
+import LoginScreen from '../Screens/LoginScreen';
+import DashboardScreen from '../Screens/DashboardScreen';
+import ProfileScreen from '../Screens/ProfileScreen';
+
 
 const Drawer = createDrawerNavigator();
 

@@ -3,7 +3,7 @@ import React from 'react';
 import { View, Text, StyleSheet, TextInput, Button } from 'react-native';
 import { useNavigation } from '@react-navigation/native';
 import { useDispatch } from 'react-redux';
-import { login } from '../store/authSlice';
+import { login } from '../Store/authSlice';
 
 const LoginScreen = () => {
   const navigation = useNavigation();

@@ -4,14 +4,15 @@ import { Provider as PaperProvider } from 'react-native-paper';
 import { Provider as StoreProvider } from 'react-redux';
 import { createStackNavigator } from '@react-navigation/stack';
 import { NavigationContainer } from '@react-navigation/native';
-import DrawerNavigator from './navigation/DrawerNavigator';
-import store from './store';
+import DrawerNavigator from './Navigation/DrawerNavigator';
+import Store from './Store'; 
+
 
 const Stack = createStackNavigator();
 
 const App = () => {
   return (
-    <StoreProvider store={store}>
+    <StoreProvider store={Store}>
       <PaperProvider>
         <NavigationContainer>
           <Stack.Navigator initialRouteName="DrawerNavigator" >
